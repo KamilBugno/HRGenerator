@@ -8,7 +8,7 @@ namespace HRGenerator
 {
     class ConstantData
     {
-        public static int startKey = 1;
+        public static int startKey = 100;
         public static int numberOfPeople = 10;
         public static string[] departments = { "Software Development", "Sales Department",
             "Accounts Department", "Quality Assurance", "Executive Department"};

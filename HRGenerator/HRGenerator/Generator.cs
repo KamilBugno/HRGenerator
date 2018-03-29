@@ -23,7 +23,7 @@ namespace HRGenerator
         {
             var people = new List<Person>();
 
-            for(int i = ConstantData.startKey; i < ConstantData.numberOfPeople; i++)
+            for(int i = ConstantData.startKey; i < ConstantData.startKey + ConstantData.numberOfPeople; i++)
             {
                 var _key = i.ToString();
                 var name = GenerateName();
